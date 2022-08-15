@@ -1,0 +1,16 @@
+.home-social-icons-container {
+    position: fixed;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -5rem;
+    padding-left: 1.2rem;
+}
+
+.socialIconsHome {
+    color: #93f9c8;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}

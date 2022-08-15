@@ -1,0 +1,56 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+body {
+    overflow: hidden;
+    color: white !important;
+    background: url(../assests/abstract-flowing-neon-wave-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-img-div {
+    height: 36rem;
+    overflow: hidden;
+    margin: auto !important;
+}
+
+.header-img-sub-div {
+    width: 95%;
+    height: 100%;
+    background-color: black;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.header-img-sub-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+    overflow: hidden;
+}
+
+.display-3 {
+    color: #93f9c8;
+}
+
+.scroll-down {
+    position: fixed;
+    bottom: 2rem;
+    left: 1rem;
+}
+
+.scroll-down-icon {
+    color: #93f9c8;
+    animation: scroll-down 1s linear infinite;
+    position: absolute;
+}
+
+@keyframes scroll-down {
+    from {
+        bottom: 2.8rem;
+    }
+
+    to {
+        bottom: 2rem;
+    }
+}
