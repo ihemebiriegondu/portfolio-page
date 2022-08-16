@@ -31,7 +31,7 @@ function Home() {
                             </div>
                         </div>
                         <div className='col-5 header-img-div m-0 p-0'>
-                            <div className='header-img-sub-div'>
+                            <div className='header-img-sub-div shadow'>
                                 <img src={HeaderImg} alt="hero img" />
                             </div>
                         </div>
