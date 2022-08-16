@@ -15,9 +15,33 @@ body {
   width: 100%;
 }
 
+#root {
+  height: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.hamburger-icon,
+.hamburger-icon span {
+  color: #93f9c8 !important;
+  background-color: #93f9c8 !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.offCanvas {
+  background-color: #1b033c !important;
+}
+
+.offcanvas-header .btn-close {
+  color: white !important;
+  background-color: #93f9c8 !important;
+  opacity: 1 !important;
+  margin-top: 0.5rem !important;
 }
 
 .links {
@@ -30,19 +54,9 @@ code {
   position: absolute;
   overflow: hidden;
   box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.2);
+  background-color: #1b033c;
 }
 
-.navbar:before {
-  content: “ ”;
-  background: inherit;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.3);
-  filter: blur(10px);
-}
 
 /*animate name*/
 .animate-character {
@@ -72,18 +86,38 @@ code {
 }
 
 .navs {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
   text-transform: uppercase;
   color: #93f9c8 !important;
+  transition: all 0.5s ease-in-out !important;
 }
 
-.navbar-nav .nav-link.active,
-.navbar-nav .show>.nav-link {
-  margin-bottom: 2px solid blue !important;
+.navs:hover, .navs:active, .navs:focus {
+  color: #93e8f9 !important;
+}
+
+.navs::after {
+  content: '' !important;
+  display: block !important;
+  width: 0 !important;
+  height: 2px !important;
+  background: linear-gradient(rgb(47, 128, 237), rgb(178, 255, 218)) !important;
+  transition: width .3s !important;
+}
+
+.navs:hover::after, .navs:active::after, .navs:focus::after {
+  width: 100% !important;
 }
 
 .hireMeButton {
-  animation: boing 300ms ease-in-out infinite;
-  cursor: pointer;
+  animation: boing 2s ease-in-out infinite;
+  background-color: #c0f9dd !important;
+  color: rgb(100, 15, 179) !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 @keyframes boing {
@@ -96,7 +130,7 @@ code {
   }
 
   15% {
-    transform: scale(1.2, 1.1);
+    transform: scale(1.2, 1.2);
   }
 
   40% {
