@@ -14,7 +14,7 @@ function Home() {
     return (
         <div className='col-12 mainHome'>
             <div className='d-flex flex-column justify-content-center align-items-center mainHomeDiv'>
-                <SocialIcons SocialIconContainerClass={"home-social-icons-container d-sm-flex d-none"} />
+                <SocialIcons SocialIconContainerClass={"home-social-icons-container d-sm-flex d-none"} SocialIconClass={'socialIconsHome'} />
                 <div>
                     <div className='d-flex flex-lg-row flex-column-reverse col-11 m-sm-0 ms-sm-auto m-auto pe-sm-5 align-items-center mainHomeContents'>
                         <div className='col-lg-7 col-md-11 col-sm-12 text-lg-start text-center'>

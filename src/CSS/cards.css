@@ -1,7 +1,7 @@
 .card {
-    background-color: #0d0537;
+    background-color: #0d0537 !important;
     transition: all 0.5s ease-in-out;
-    color: white;
+    color: white !important;
 }
 
 .certificate {
@@ -12,8 +12,8 @@
 .card:hover {
     transition: all 0.5s ease-in-out;
     transform: translateY(10%);
-    background-color: #93f9c8;
-    color: #0c0531;
+    background-color: #93f9c8 !important;
+    color: #0c0531 !important;
 }
 
 .card:hover .certificate {

@@ -7,7 +7,7 @@
     align-items: center;
     height: auto;
     padding-top: 9rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .mainAboutDiv{
@@ -35,10 +35,13 @@
 
 .aboutme-icons {
     color: #93f9c8;
-    border: 2px solid #93f9c8;
-    border-radius: 50%;
 }
 
 span {
     color: #93f9c8;
+}
+
+.aboutme-icons-div {
+    border: 2px solid #93f9c8;
+    border-radius: 50%;
 }

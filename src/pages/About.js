@@ -22,13 +22,13 @@ function About() {
           <div className='d-flex justify-content-center'>
             <div className='about-img-sub-div'><img src={HeaderImg} alt="hero img" className='about-img' /></div>
           </div>
-          <div className='row row-cols-2 g-5 mt-5 col-10 m-auto'>
+          <div className='row row-cols-lg-2 g-5 mt-5 col-sm-10 col-12 m-auto'>
             <div className=''>
               <div className='shadow skillsAndabout py-2 px-3 mb-4'>
                 <h5 className='text-uppercase h4'>About Me <BsFillPersonLinesFill className='mb-1 ms-3 aboutme-icons border-0 rounded-0' /></h5>
               </div>
 
-              <div className='ms-3'>
+              <div className='ms-sm-3'>
                 <p className='text-uppercase fw-bold'>Name: <span className='text-capitalize ms-3'>Egondu Ihemebiri</span></p>
                 <p className='text-uppercase fw-bold'>Age: <span className='text-capitalize ms-3'>20 years</span></p>
                 <p className='text-uppercase fw-bold'>Nationality: <span className='text-capitalize ms-3'>Nigerian</span></p>
@@ -36,12 +36,20 @@ function About() {
                 <p className='text-uppercase fw-bold'>Phone: <span className='text-capitalize ms-3'>+234 705 028 6131</span></p>
                 <p className='text-uppercase fw-bold'>Languages: <span className='text-capitalize ms-3'>English</span></p>
                 <div>
-                  <h6 className='text-uppercase text-center mt-4 h5'>My Interest</h6>
+                  <h6 className='text-uppercase text-center mt-4 h6'>My Interest</h6>
                   <div className='d-flex align-items-center justify-content-center mt-4'>
-                    <FaMusic className='aboutme-icons me-5 h1 py-2 px-2' />
-                    <MdLocalMovies className='aboutme-icons me-5 h1 py-2 px-2' />
-                    <IoFastFoodSharp className='aboutme-icons me-5 h1 py-2 px-2' />
-                    <BsBraces className='aboutme-icons me-5 h1 py-2 px-2' />
+                    <div className='py-sm-3 py-2 px-sm-3 px-2 aboutme-icons-div text-center me-sm-5 me-4'>
+                      <FaMusic className='aboutme-icons h4 p-0 m-0 mb-0' />
+                    </div>
+                    <div className='py-sm-3 py-2 px-sm-3 px-2 aboutme-icons-div text-center me-sm-5 me-4'>
+                      <MdLocalMovies className='aboutme-icons h4 p-0 m-0 mb-0' />
+                    </div>
+                    <div className='py-sm-3 py-2 px-sm-3 px-2 aboutme-icons-div text-center me-sm-5 me-4'>
+                      <IoFastFoodSharp className='aboutme-icons h4 p-0 m-0 mb-0' />
+                    </div>
+                    <div className='py-sm-3 py-2 px-sm-3 px-2 aboutme-icons-div text-center'>
+                      <BsBraces className='aboutme-icons h4 p-0 m-0 mb-0' />
+                    </div>
                   </div>
                   <div className=''>
                     <Button variant="primary" className="py-3 px-3 fw-bold mb-0 about-button mt-5">DOWNLOAD CV <IoMdDownload className='fs-3' /> </Button>
@@ -53,30 +61,30 @@ function About() {
               <div className='shadow skillsAndabout py-2 px-3 mb-4'>
                 <h5 className='text-uppercase h4'>Skills <BsCodeSlash className='mb-1 ms-3 aboutme-icons border-0 rounded-0' /></h5>
               </div>
-              <div className='ms-3 pe-5'>
-                <div className='d-flex align-items-center justify-content-between mb-3 me-5'>
+              <div className='ms-sm-3 pe-xxl-5'>
+                <div className='d-flex align-items-center justify-content-between mb-3 me-xxl-5'>
                   <p className='text-uppercase fw-bold'>HTML</p>
-                  <FaHtml5 className='mb-1 aboutme-icons me-5 display-4 border-0 rounded-0' />
+                  <FaHtml5 className='mb-1 aboutme-icons me-xxl-5 display-4 border-0 rounded-0' />
                 </div>
-                <div className='d-flex align-items-center justify-content-between mb-3 me-5'>
+                <div className='d-flex align-items-center justify-content-between mb-3 me-xxl-5'>
                   <p className='text-uppercase fw-bold'>CSS</p>
-                  <FaCss3Alt className='mb-1 aboutme-icons me-5 display-4 border-0 rounded-0' />
+                  <FaCss3Alt className='mb-1 aboutme-icons me-xxl-5 display-4 border-0 rounded-0' />
                 </div>
-                <div className='d-flex align-items-center justify-content-between mb-3 me-5'>
+                <div className='d-flex align-items-center justify-content-between mb-3 me-xxl-5'>
                   <p className='text-uppercase fw-bold'>JavaScript</p>
-                  <SiJavascript className='mb-1 aboutme-icons me-5 display-5 border-0 rounded-0' />
+                  <SiJavascript className='mb-1 aboutme-icons me-xxl-5 display-5 border-0 rounded-0' />
                 </div>
-                <div className='d-flex align-items-center justify-content-between mb-3 me-5'>
+                <div className='d-flex align-items-center justify-content-between mb-3 me-xxl-5'>
                   <p className='text-uppercase fw-bold'>Bootstrap</p>
-                  <FaBootstrap className='mb-1 aboutme-icons me-5 display-4 border-0 rounded-0' />
+                  <FaBootstrap className='mb-1 aboutme-icons me-xxl-5 display-4 border-0 rounded-0' />
                 </div>
-                <div className='d-flex align-items-center justify-content-between mb-3 me-5'>
+                <div className='d-flex align-items-center justify-content-between mb-3 me-xxl-5'>
                   <p className='text-uppercase fw-bold'>SCSS</p>
-                  <FaSass className='mb-1 aboutme-icons me-5 display-4 border-0 rounded-0' />
+                  <FaSass className='mb-1 aboutme-icons me-xxl-5 display-4 border-0 rounded-0' />
                 </div>
-                <div className='d-flex align-items-center justify-content-between mb-3 me-5'>
+                <div className='d-flex align-items-center justify-content-between mb-3 me-xxl-5'>
                   <p className='text-uppercase fw-bold'>ReactJs</p>
-                  <FaReact className='mb-1 aboutme-icons me-5 display-4 border-0 rounded-0' />
+                  <FaReact className='mb-1 aboutme-icons me-xxl-5 display-4 border-0 rounded-0' />
                 </div>
               </div>
             </div>
@@ -87,8 +95,8 @@ function About() {
               <div className='text-center mb-4'>
                 <GiGraduateCap className='display-4' />
               </div>
-              <div className='row row-cols-lg-3 justify-content-center'>
-                <div className='col'>
+              <div className='row row-cols-xl-3 row-cols-md-2 row-cols-1 justify-content-center col-md-12 col-sm-10 m-auto'>
+                <div className='col mb-md-0 mb-5'>
                   <Cards cardTitle={"2015 - 2018"} cardSubTitle={"HIGH SCHOOL DIPLOMA"} CardText={"Some quick example text to build on the card title and make up the bulk of the card's content."} />
                 </div>
                 <div className='col'>
@@ -98,8 +106,8 @@ function About() {
               <div className='text-center mb-4 mt-5'>
                 <MdWork className='display-4' />
               </div>
-              <div className='row row-cols-lg-3 justify-content-center'>
-                <div className='col'>
+              <div className='row row-cols-xl-3 row-cols-md-2 row-cols-1 justify-content-center col-md-12 col-sm-10 m-auto'>
+                <div className='col mb-md-0 mb-5'>
                   <Cards cardTitle={"2022"} cardSubTitle={"FRONTEND DEVELOPER INTERN (HTML, CSS, JS"} CardText={"Some quick example text to build on the card title and make up the bulk of the card's content."} />
                 </div>
                 <div className='col'>

@@ -3,13 +3,13 @@ import '../CSS/socialIcons.css'
 import { FaGithub, FaLinkedin, FaTwitter, FaFacebookF } from 'react-icons/fa';
 
 
-function SocialIcons({SocialIconContainerClass}) {
+function SocialIcons({SocialIconContainerClass, SocialIconClass}) {
   return (
     <div className={SocialIconContainerClass}>
-      <FaGithub className='socialIconsHome' />
-      <FaLinkedin className='socialIconsHome' />
-      <FaTwitter className='socialIconsHome' />
-      <FaFacebookF className='socialIconsHome' />
+      <FaGithub className={SocialIconClass} />
+      <FaLinkedin className={SocialIconClass} />
+      <FaTwitter className={SocialIconClass} />
+      <FaFacebookF className={SocialIconClass} />
     </div>
   )
 }
