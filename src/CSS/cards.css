@@ -1,4 +1,4 @@
-.card {
+.cards {
     background-color: #0d0537 !important;
     transition: all 0.5s ease-in-out;
     color: white !important;
@@ -9,14 +9,14 @@
     transition: all 0.5 ease-in-out;
 }
 
-.card:hover {
+.cards:hover {
     transition: all 0.5s ease-in-out;
     transform: translateY(10%);
     background-color: #93f9c8 !important;
     color: #0c0531 !important;
 }
 
-.card:hover .certificate {
+.cards:hover .certificate {
     transition: all 0.5s ease-in-out;
     color: rgb(100, 15, 179) !important;
 }
