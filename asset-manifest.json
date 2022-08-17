@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-page/static/css/main.65913a7a.css",
+    "main.js": "/portfolio-page/static/js/main.65a10198.js",
+    "static/media/abstract-flowing-neon-wave-background.jpg": "/portfolio-page/static/media/abstract-flowing-neon-wave-background.5488e73287510fe88424.jpg",
+    "static/media/all slant travel page.png": "/portfolio-page/static/media/all slant travel page.14db61fd5b68472c2e6f.png",
+    "static/media/all portfolio page.png": "/portfolio-page/static/media/all portfolio page.87fa742e976e44261836.png",
+    "static/media/all graphics design page.png": "/portfolio-page/static/media/all graphics design page.2ecf235b351553a67ad7.png",
+    "static/media/collage2.png": "/portfolio-page/static/media/collage2.2b52577f8409ebb8a006.png",
+    "static/media/all travel page.jpg": "/portfolio-page/static/media/all travel page.cfc0d33f27419989b581.jpg",
+    "static/media/collage.png": "/portfolio-page/static/media/collage.84fbb279feaa0fc5eb27.png",
+    "static/media/HeaderImg.jpg": "/portfolio-page/static/media/HeaderImg.2c64e6e0481f15a3ca81.jpg",
+    "static/media/url home (2).png": "/portfolio-page/static/media/url home (2).ad12b1279b6e29c731bf.png",
+    "static/media/calculator.png": "/portfolio-page/static/media/calculator.ccba5ceadbba6502b985.png",
+    "static/media/Calculator dark.png": "/portfolio-page/static/media/Calculator dark.4c67fae1c6eea5e6b781.png",
+    "static/media/url home (3).png": "/portfolio-page/static/media/url home (3).1aa0881fce15b4132a0f.png",
+    "static/media/Ihemebiri Egondu .pdf": "/portfolio-page/static/media/Ihemebiri Egondu .68f2c58dfddc00cb5430.pdf",
+    "index.html": "/portfolio-page/index.html",
+    "static/media/check.svg": "/portfolio-page/static/media/check.4999762270dba78870c4.svg",
+    "main.65913a7a.css.map": "/portfolio-page/static/css/main.65913a7a.css.map",
+    "main.65a10198.js.map": "/portfolio-page/static/js/main.65a10198.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65913a7a.css",
+    "static/js/main.65a10198.js"
+  ]
+}
