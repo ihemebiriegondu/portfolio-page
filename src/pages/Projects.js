@@ -5,6 +5,11 @@ import MyModal from '../components/MyModal'
 import allgraphicsdesignpage from '../assests/Projects/all graphics design page.png'
 import allslanttravelpage from '../assests/Projects/all slant travel page.png'
 import allportfoliopage from '../assests/Projects/all portfolio page.png'
+import allTravel from '../assests//Projects/all travel page.jpg'
+import calculatorDark from '../assests/Projects/Calculator dark.png'
+import url2 from '../assests/Projects/url home (2).png'
+import url3 from '../assests/Projects/url home (3).png'
+
 import calculator from '../assests/Projects/calculator.png'
 import collage from '../assests/Projects/collage.png'
 import collage2 from '../assests/Projects/collage2.png'
@@ -67,24 +72,24 @@ function Projects() {
             ProjectImage2={allgraphicsdesignpage} ProjectImage3={allgraphicsdesignpage}
             className="" />
           <MyModal modalId={"modal2"} ProjectName={"Holidayz travel page (in progress)"} ProjectLanguages={"html, css, bootstrap, js"} ProjectPreviewLink={""}
-            ProjectPreviewLinkName={""} ProjectGitHubLink={"https://github.com/ihemebiriegondu/same-travel-page.git"} ProjectGitHubLinkName={"github.com/ihemebiriegondu/same-travel-page"} ProjectImage1={allgraphicsdesignpage}
-            ProjectImage2={allgraphicsdesignpage} ProjectImage3={allgraphicsdesignpage}
+            ProjectPreviewLinkName={""} ProjectGitHubLink={"https://github.com/ihemebiriegondu/same-travel-page.git"} ProjectGitHubLinkName={"github.com/ihemebiriegondu/same-travel-page"} ProjectImage1={allslanttravelpage}
+            ProjectImage2={allTravel} ProjectImage3={allslanttravelpage}
             className="" />
           <MyModal modalId={"modal3"} ProjectName={"My portfolio page V1.0"} ProjectLanguages={"html, css, scss, bootstrap, js"} ProjectPreviewLink={"https://egonduihemebiri.netlify.app/"}
-            ProjectPreviewLinkName={"egonduihemebiri.netlify.app"} ProjectGitHubLink={"https://github.com/ihemebiriegondu/EGO.git"} ProjectGitHubLinkName={"github.com/ihemebiriegondu/EGO"} ProjectImage1={allgraphicsdesignpage}
-            ProjectImage2={allgraphicsdesignpage} ProjectImage3={allgraphicsdesignpage}
+            ProjectPreviewLinkName={"egonduihemebiri.netlify.app"} ProjectGitHubLink={"https://github.com/ihemebiriegondu/EGO.git"} ProjectGitHubLinkName={"github.com/ihemebiriegondu/EGO"} ProjectImage1={allportfoliopage}
+            ProjectImage2={allportfoliopage} ProjectImage3={allportfoliopage}
             className="" />
           <MyModal modalId={"modal4"} ProjectName={"My Basic calculator"} ProjectLanguages={"html, css, js"} ProjectPreviewLink={"https://ego-simple-calculator.netlify.app/"}
-            ProjectPreviewLinkName={"ego-simple-calculator.netlify.app"} ProjectGitHubLink={"https://github.com/ihemebiriegondu/My-Simple-Calculator"} ProjectGitHubLinkName={"github.com/ihemebiriegondu/My-Simple-Calculator"} ProjectImage1={allgraphicsdesignpage}
-            ProjectImage2={allgraphicsdesignpage} ProjectImage3={allgraphicsdesignpage}
+            ProjectPreviewLinkName={"ego-simple-calculator.netlify.app"} ProjectGitHubLink={"https://github.com/ihemebiriegondu/My-Simple-Calculator"} ProjectGitHubLinkName={"github.com/ihemebiriegondu/My-Simple-Calculator"} ProjectImage1={calculator}
+            ProjectImage2={calculatorDark} ProjectImage3={calculator}
             className="" />
           <MyModal modalId={"modal5"} ProjectName={"Link shortener page"} ProjectLanguages={"html, css, js"} ProjectPreviewLink={"https://elide-link-shortener.netlify.app/"}
-            ProjectPreviewLinkName={"elide-link-shortener.netlify.app"} ProjectGitHubLink={"https://github.com/ihemebiriegondu/URL-Shortener"} ProjectGitHubLinkName={"github.com/ihemebiriegondu/URL-Shortener"} ProjectImage1={allgraphicsdesignpage}
-            ProjectImage2={allgraphicsdesignpage} ProjectImage3={allgraphicsdesignpage}
+            ProjectPreviewLinkName={"elide-link-shortener.netlify.app"} ProjectGitHubLink={"https://github.com/ihemebiriegondu/URL-Shortener"} ProjectGitHubLinkName={"github.com/ihemebiriegondu/URL-Shortener"} ProjectImage1={collage}
+            ProjectImage2={url2} ProjectImage3={url3}
             className="" />
           <MyModal modalId={"modal6"} ProjectName={"PiggyVest website clone"} ProjectLanguages={"html, css, bootstrap, js"} ProjectPreviewLink={"https://piggy-clone.netlify.app/"}
-            ProjectPreviewLinkName={"piggy-clone.netlify.app"} ProjectGitHubLink={"https://github.com/ihemebiriegondu/PiggyVest-Clone"} ProjectGitHubLinkName={"github.com/ihemebiriegondu/PiggyVest-Clone"} ProjectImage1={allgraphicsdesignpage}
-            ProjectImage2={allgraphicsdesignpage} ProjectImage3={allgraphicsdesignpage}
+            ProjectPreviewLinkName={"piggy-clone.netlify.app"} ProjectGitHubLink={"https://github.com/ihemebiriegondu/PiggyVest-Clone"} ProjectGitHubLinkName={"github.com/ihemebiriegondu/PiggyVest-Clone"} ProjectImage1={collage2}
+            ProjectImage2={collage2} ProjectImage3={collage2}
             className="" />
         </div>
       </div>
