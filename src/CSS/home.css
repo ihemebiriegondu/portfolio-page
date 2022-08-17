@@ -2,12 +2,14 @@
 
 html {
     height: 100%;
+    background-color: #0c0531;
 }
 
 body {
     overflow-x: hidden;
     color: white !important;
     height: 100%;
+    background-color: #0c0531;
 }
 
 .mainHome {

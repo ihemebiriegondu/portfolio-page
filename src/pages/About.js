@@ -3,7 +3,7 @@ import React from 'react'
 import HeaderImg from '../assests/HeaderImg.jpg';
 import Cards from '../components/cards';
 
-import { Button } from 'react-bootstrap';
+import IhemebiriEgonduCV from '../assests/Ihemebiri Egondu .pdf'
 import { BsFillPersonLinesFill, BsCodeSlash, BsBraces } from 'react-icons/bs'
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaReact, FaMusic } from 'react-icons/fa'
 import { SiJavascript } from 'react-icons/si'
@@ -32,8 +32,8 @@ function About() {
                 <p className='text-uppercase fw-bold'>Name: <span className='text-capitalize ms-3'>Egondu Ihemebiri</span></p>
                 <p className='text-uppercase fw-bold'>Age: <span className='text-capitalize ms-3'>20 years</span></p>
                 <p className='text-uppercase fw-bold'>Nationality: <span className='text-capitalize ms-3'>Nigerian</span></p>
-                <p className='text-uppercase fw-bold'>Email: <span className='text-lowercase ms-3'>ihemebiriegondu@gmail.com</span></p>
-                <p className='text-uppercase fw-bold'>Phone: <span className='text-capitalize ms-3'>+234 705 028 6131</span></p>
+                <p className='text-uppercase fw-bold'>Email: <a href='mailto:ihemebiriegondu@gmail.com' className='text-lowercase ms-3 text-decoration-none'>ihemebiriegondu@gmail.com</a></p>
+                <p className='text-uppercase fw-bold'>Phone: <a href='tel:+2347050286131' className='text-capitalize ms-3 text-decoration-none'>+234 705 028 6131</a></p>
                 <p className='text-uppercase fw-bold'>Languages: <span className='text-capitalize ms-3'>English</span></p>
                 <div>
                   <h6 className='text-uppercase text-center mt-4 h6'>My Interest</h6>
@@ -52,7 +52,7 @@ function About() {
                     </div>
                   </div>
                   <div className=''>
-                    <Button variant="primary" className="py-3 px-3 fw-bold mb-0 about-button mt-5">DOWNLOAD CV <IoMdDownload className='fs-3' /> </Button>
+                    <a href={IhemebiriEgonduCV} target={'_blank'} rel="noreferrer" variant="primary" className="py-3 btn px-3 fw-bold mb-0 about-button mt-5 text-decoration-none">DOWNLOAD CV <IoMdDownload className='fs-3' /> </a>
                   </div>
                 </div>
               </div>

@@ -14,6 +14,10 @@
     background: #0c0531;
 }
 
+.contact-icons {
+    color: white !important;
+}
+
 .form-input,
 .form-message {
     background-color: #0d0537 !important;

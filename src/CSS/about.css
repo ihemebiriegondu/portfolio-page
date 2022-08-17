@@ -37,8 +37,8 @@
     color: #93f9c8;
 }
 
-span {
-    color: #93f9c8;
+span ,a {
+    color: #93f9c8 !important;
 }
 
 .aboutme-icons-div {

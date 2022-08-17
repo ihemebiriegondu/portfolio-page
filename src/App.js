@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-import { Button, Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
+import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -40,7 +40,7 @@ function App() {
                   <Nav.Link className="p-0"><Link className="links navs me-lg-5 mb-lg-0 mb-3" to="/projects">My projects</Link></Nav.Link>
                   <Nav.Link className="p-0"><Link className="links navs mb-lg-0 mb-5" to="/contact">Contact me</Link></Nav.Link>
                 </Nav>
-                <Button variant="primary" className="hireMeButton px-3 py-2 text-uppercase">Hire Me <BsBriefcaseFill className="ms-3 mb-1" /> </Button>
+                <a href="https://www.fiverr.com/share/L0DNY0" target={"_blank"} rel="noreferrer" variant="primary" className="hireMeButton btn px-3 py-2 text-uppercase">Hire Me <BsBriefcaseFill className="ms-3 mb-1" /> </a>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
