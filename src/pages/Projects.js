@@ -20,7 +20,7 @@ import { RiProjectorFill } from 'react-icons/ri'
 import '../CSS/projects.css'
 
 
-function Projects() {
+function Projects() { 
   return (
     <div className='mainProject'>
       <div className='col-12 mainProjectDiv'>

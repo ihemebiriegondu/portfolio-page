@@ -33,7 +33,7 @@ function App() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body className="align-items-center">
-              <SocialIcons SocialIconContainerClass={"home-social-icons-container d-sm-none d-flex"} SocialIconClass={'socialIconsHome'} />
+                <SocialIcons SocialIconContainerClass={"home-social-icons-container d-sm-none d-flex"} SocialIconClass={'socialIconsHome'} />
                 <Nav className="justify-content-center flex-grow-1 pe-3">
                   <Nav.Link className="p-0"><Link className="links navs me-lg-5 mb-lg-0 mb-3" to="/">Home</Link></Nav.Link>
                   <Nav.Link className="p-0"><Link className="links navs me-lg-5 mb-lg-0 mb-3" to="/about">About me</Link></Nav.Link>
